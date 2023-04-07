@@ -1,0 +1,968 @@
+body
+{
+    height: 3000px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'varela round' , sans-serif ;
+}
+.header
+{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+}
+.header img
+{
+    width: 150px;
+    height: 65px;
+    margin-left: 150px;
+}
+.header ul
+{
+    list-style-type: none;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.header li
+{
+    display: inline;
+    margin-left: 50px;
+}
+.header a
+{
+    text-decoration: none;
+    color: #6195ff;
+    font-size: 20px;
+}
+.header-a:hover
+{
+    color: black;
+    transition: 1s;
+}
+.back
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/men-s-fashion-clothes-shop-21702063.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.85;
+    position: absolute;
+}
+.content
+{
+    width: 55%;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+}
+.content h2 , p , .btn
+{
+    letter-spacing: 2px;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+.content p
+{
+    font-size: 20px;
+}
+.btn
+{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn1
+{
+    background-color: white;
+    border: none;
+}
+.btn2
+{
+    background-color: blue;
+    margin-left: 15px;
+    color: white;
+}
+.btn:hover
+{
+    opacity: 0.7;
+}
+
+/*///////////////////////////////////////////////////////////end sec1////////////////////////////////////////*/
+.section2
+{
+    width: 100%;
+    height: 80vh;
+}
+.title2
+{   padding-top: 90px;
+    text-align: center;
+    font-size: 45px;
+}
+.line
+{
+    width: 75px;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.container
+{
+    width: 80%;
+    margin:auto; 
+    margin-top: 120px;
+    position: relative;
+}
+.box
+{
+    width: 25%;
+    height: 220px;
+    border: solid 1px gray;
+    text-align: center;
+    float: left;
+    margin-left: 90px;
+    position: relative;
+}
+i
+{
+    color: blue;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.box p
+{
+    font-size: 16px;
+    margin: 20px 0;
+    color: gray;
+}
+.box a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+.box:after 
+{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-color: black;
+    opacity: 0;
+}
+.box:hover::after 
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.box:hover{
+    z-index: 3;
+}
+.box:hover .box-title
+{
+    color: white;
+    transition: 0.5s;
+}
+/* //////////////////////////////////////////////////////end sec2//////////////////////////////////////////////////////// */
+.section3
+{
+    width: 100%;
+    height: 135vh;
+    background-color: #e8e8e8;
+}
+.container2
+{
+    width: 90%;
+    margin: auto;
+    margin-left: 9%;
+}
+.container2-content
+{
+    margin: 70px 0;
+}
+.Featured-works
+{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    margin-left: 15px;
+    float: left;
+}
+.Featured-works img
+{
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+}
+.featured-content
+{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+.overlay
+{
+    padding-top: 80px;
+}
+
+.category
+{
+    display: block;
+    color: #6195ff;
+    text-transform: uppercase;
+}
+.featured-content h3
+{
+    color: white;
+}
+.featured-content i
+{
+    width: 45px;
+    background-color: #6195ff;
+}
+.Featured-works:hover .featured-content
+{
+    visibility: visible;
+    opacity: 0.7;
+    transition: 2s;
+}
+
+.Featured-works:hover .layout
+{
+    visibility: visible;
+}
+
+.clearfix
+{
+    clear: both;
+}
+/* /////////////////////////////////////////////////////////////end sec3///////////////////////////////////////////////////////////////////// */
+.section4
+{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+.container3
+{
+    width: 80%;
+    margin: auto;
+}
+.item
+{
+    width: 30%;
+    border: solid 1px gray;
+    text-align: center;
+    position: relative;
+    padding-top: 25px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 60px;
+}
+.item i
+{
+    display: inline;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    color: #6195ff;
+}
+.item h2
+{
+    display: inline;   
+}
+.item p
+{
+    font-size: 16px;
+    margin: 20px 0; 
+    padding: 0 50px;
+    letter-spacing: 2px;
+    color: gray;
+    text-transform: capitalize;
+    line-height: 23px;
+}
+.item:after
+{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: rgb(0, 0, 0 );
+    opacity: 0;
+    z-index: -2;
+}
+.item:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.item:hover .item-title
+{
+    color: white;
+    z-index: 7;
+    transition: 0.5s;
+}
+.item:hover
+{
+    z-index: 3;
+}
+/* //////////////////////////////////////////////////////////////////end sec4/////////////////////////////////////////////////////////// */
+.section5
+{
+    width: 100%;
+    height: 100vh;
+    background-color: darkgray;
+}
+.container4
+{
+    width: 80%;
+    margin: auto;
+}
+.choice-title
+{
+    text-align: left;
+}
+.line2
+{
+    margin-left: 120px;
+}
+.choice i
+{
+    display: inline;
+    color: blue;
+    font-size: 22px;
+}
+.choice p
+{
+    font-size: 16px;
+    color: black;
+    padding: 30px 0;
+    line-height: 35px;
+    display: inline;
+}
+.choice-p
+{
+    display: inline;
+    line-height: 35px;
+}
+.choice
+{
+    width: 45%;
+    float: left;
+}
+.image
+{
+    width: 45%;
+    margin-top: 120px;
+    float: right;
+}
+.image img
+{
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+}
+.circles
+{
+    list-style-type: none ;
+    text-align: center;
+}
+
+.circles li
+{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: black;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+li.color
+{
+    background-color: #6195ff;
+}
+.circles li:hover
+{
+    background-color: #6195ff;
+}
+/* ////////////////////////////////////////////////////////////////end sec5 ///////////////////////////////////////////////////////////// */
+.section6
+{
+    background-image: url(../images/210513161516-12-ramadan-0513.jpg);
+    position: relative;
+    height: 350px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.overlay6
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+.container5
+{
+    width: 80%;
+    margin: auto;
+}
+.clients
+{
+    padding-top:150px ;
+    overflow: hidden;
+}
+.client
+{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.client i{
+    color: #6195ff;
+}
+.client-title
+{
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.client span
+{
+    color: white;
+}
+/* /////////////////////////////////////////////////////////end sec6 /////////////////////////////////////////////////////////////////// */
+.section7
+{
+    width: 100%;
+    height: 100vh;
+}
+.container6
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.pricing
+{
+    width: 25%;
+    border: 1px solid gray;
+    float: left;
+    margin-left:80px ;
+    position: relative;
+}
+.child
+{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    margin: auto;
+}
+.div1
+{
+    font-size: 35px;
+    font-style: oblique;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.month
+{
+    text-align: center;
+    margin-top: -12px; 
+}
+.pricing p
+{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    line-height: 45px;
+}
+button
+{
+    background-color: transparent;
+    width: 120px;
+    height: 30px;
+    border-color: blue;
+    margin: 30px 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.format
+{
+    text-align: center;
+}
+.pricing:after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(128, 128, 128 );
+    opacity: 0;
+    z-index: -2;
+}
+.pricing:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}
+.pricing:hover
+{
+    z-index: 3;
+}
+.pricing:hover .pricing-p 
+{
+    color: white;
+    transition: 1s;
+}
+.pricing:hover .child
+{
+    color: white;
+    transition: 1s;
+}
+/* ///////////////////////////////////////////////////////////////////end sec7 //////////////////////////////////////////////////////// */
+.section8
+{
+    background-image: url(../images/210513161516-12-ramadan-0513.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+.back-content
+{
+    padding: 70px;
+    overflow: hidden;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.overlay-back
+{
+    opacity: 0.7;
+}
+.back-item
+{
+    position: absolute;
+    width: 45%;
+    float: left;
+    z-index: 5;
+}
+.back-item2
+{
+    float: right;
+    position: absolute;
+    width: 90%; 
+}
+.back-item2 img
+{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.back-item2 p
+{
+    font-size: 14px;
+    word-spacing: -1px;
+    color: white;
+    line-height: 35px;
+    position: absolute;
+    left: 750px;
+    top: 90px;
+}
+.back-item2 h3
+{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 850px;
+    top: 15px;
+}
+.back-item2 span
+{
+    color: #6195ff;
+    position: absolute;
+    top: 40px;
+    left: 850px;
+}
+.back-item img
+{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 95px;
+    top: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.back-item p
+{
+    font-size: 14px;
+    word-spacing: -1px;
+    color: white;
+    line-height: 35px;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+}
+.back-item h3
+{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 15px;
+}
+.back-item span
+{
+    color: #6195ff;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+/* /////////////////////////////////////////////////////////end sec8 //////////////////////////////////////////////////////////// */
+.section9
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.container8
+{
+    width: 80%;
+    margin: auto;
+}
+.team-members
+{
+    overflow: hidden;
+}
+.member 
+{
+    width: 30%;
+    background-color: gray;
+    position: relative;
+    padding: 20px  15px ;
+    float: left;
+}
+.div2
+{
+    margin: 0 5%;
+}
+.member-image
+{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+.member-image img
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
+.member-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0,0,0,0.7);
+    opacity: 0;
+    visibility: hidden;
+}
+.member:hover .member-overlay
+{
+    opacity: 1;
+    visibility: visible;
+}
+.member-overlay a
+{
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: #6195ff;
+    margin-left: auto;
+    z-index: 2;
+}
+.member-overlay a i
+{
+    line-height: 20px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.member-title{
+    text-align: center;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.member-info p
+{
+    color: blue;
+    text-align: center;
+    font-size: 16px;
+    line-height: 45px;
+}
+.member:after 
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: -2;
+}
+.member:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 2s;
+}
+.member:hover
+{
+    z-index: 3;
+}
+.member:hover .member-title
+{
+    color: white;
+    transition: 1s;
+}
+/* ///////////////////////////////////////////////////////////////////end sec9 //////////////////////////////////////////////// */
+.section10
+{
+    width: 100%;
+    height: 110vh;
+    background-color: #e8e8e8;
+}
+.container9
+{
+    width: 80%;
+    margin: auto;
+}
+.news
+{
+    overflow: hidden;
+}
+.news-item
+{
+    width: 30%;
+    height: 540px;
+    background-color: gray;
+    float: left;
+    position: relative;
+}
+.news-item p
+{
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.news-p
+{
+    display: inline;
+}
+.news-p2{
+    text-align: center;
+    padding: 0 5px;
+}
+.news-item i
+{
+    font-size: 25px;
+    padding-left: 10px;
+    color: #6195ff;
+}
+.news-item h3
+{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.news-item a
+{
+    color: blue;
+    text-decoration: none;
+    margin-left: 40%;
+}
+.news-item:after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: -1;
+}
+.news-item:hover::after
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    transition: 1s;
+}
+.news-item:hover
+{
+    z-index: 3;
+}
+.news-item:hover .member-image
+{
+    z-index: -3;
+}
+.news-item:hover .news-title
+{
+    color: white;
+    z-index: 4;
+    transition: 1s;
+}
+.news-item:hover .news-p2 
+{
+    color: white;
+    z-index: 4;
+    transition: 1s;
+}
+.news-item:hover .news-p
+{
+    color: white;
+    z-index: 4;
+    transition: 1s;
+}
+
+/* //////////////////////////////////////////////////////////////end sec10 //////////////////////////////////////////////////////// */
+.section11
+{
+    width: 100%;
+    height: 300px;
+    background-color: darkgray;
+}
+.container10
+{
+    width: 25%;
+    margin: auto;
+}
+.footer
+{
+    margin: auto;
+}
+.footer-image
+{
+    width: 60%;
+    margin-left: 40px;
+}
+.footer-image img
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.footer ul
+{
+    list-style-type: none;
+    margin: 20px 0;
+
+}
+.footer li
+{
+    display: inline-block;
+    background-color: #6195ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.footer a
+{
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 50px;
+    padding-top: 0px;
+    padding-right: 15px;
+    font-size: 16px;
+    margin: 0 7px;
+    margin-top: 10px;
+    position: relative;
+}
+.footer i
+{
+    font-size: 20px;
+    padding-left: 5px;
+    line-height: 35px;
+    margin: auto;
+    margin-left: 4px;
+}
+.footer .you 
+{
+    margin-left : 2px;
+}
+.footer .face 
+{
+    margin-left: 5px;
+}
+.footer p
+{
+    padding-bottom: 20px;
+    font-size: 10px;
+}
